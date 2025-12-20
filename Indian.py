@@ -1,17 +1,6 @@
-import numpy as np
 import pandas as pd
+import numpy as np
 
-df = pd.read_csv("indian.csv")
+df = pd.read_excel("indian.xlsx")
 
-print(f"\n\nMissing Value in CSV File\n\n{df.isnull().sum()}")
-
-df.replace([np.inf , -np.inf] , np.nan , inplace=True)
- 
-df.replace()
-
-df["Salary (INR)"].fillna(df["Salary (INR)"].mean() , inplace=True)
-
-df["Age"].fillna(df)
-
-print(f"\n\nMissing Value in CSV File\n\n{df.isnull().sum()}")
-
+print(df.head())
