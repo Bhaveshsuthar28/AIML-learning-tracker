@@ -62,3 +62,26 @@ print("Display info of data Frame of indian.csv\n" , df.info())
     Display info of data Frame of indian.csv
     None
 """
+
+
+
+#Summary of numeric Data of column
+
+print("Summary of Numeric Column\n",df.describe())
+
+
+data = {
+    "Name": ["Ram", "Shyam", "Ghanshyam", "Dhanshyam", "Aditi", "Jagdish", "Raj", "Simran"],
+    "Age": [28, 34, 22, 30, 29, 40, 25, 32],
+    "City": ["Delhi", "Mumbai", "Jaipur", "Ahmedabad", "Pune", "Udaipur", "Indore", "Chandigarh"],
+    "Salary": [50000, 60000, 45000, 52000, 49000, 70000, 48000, 58000],
+    "Performance Score": [85, 90, 78, 92, 88, 95, 80, 89]
+}
+
+
+new_df = pd.DataFrame(data)
+
+print(f"Simple dataframe\n{new_df}")
+
+print(f"Info of these DataFrame\n{new_df.info()}\n\nDiscription of Numeric Column\n{new_df.describe()}")
+ 
