@@ -50,3 +50,30 @@ print(new_df)
 new_df["Salary"] = new_df["Salary"] * 1.5
 
 print(new_df)
+
+
+
+"""
+    Now if You want to remove any rows and column from dataFrame
+    use df.drop(columns = ["Column_Name] , inplace=True)
+
+    in inplace=True||False mean if true then it's change in original and but false then make a copy
+
+    For remove Row
+
+    df.drop(row no)
+
+    df.drop([rows no])
+"""
+
+new_df.drop(columns=["Bonus"] , inplace=True)
+
+print(new_df)
+
+
+new_df.drop([5,6])
+
+print(new_df)
+
+
+new_df.to_csv("Employe.csv")
