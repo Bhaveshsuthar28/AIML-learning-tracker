@@ -1,0 +1,22 @@
+# GitHub Streak Maintainer - Ignore config file (contains local settings)
+streak_config.json
+
+# Log files
+streak_run.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
