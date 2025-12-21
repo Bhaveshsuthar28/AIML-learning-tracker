@@ -24,7 +24,7 @@ def run_command(command: list[str]) -> None:
 
 
 def main():
-    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    timestamp = datetime.now().strftime("%d-%m-%Y %H:%M:%S")
     commit_message = f"push by Bhavesh at {timestamp}"
 
     print("Adding all changes...")
