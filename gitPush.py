@@ -34,7 +34,7 @@ def main():
     run_command(["git", "commit", "-m", commit_message])
 
     print("Pushing to main branch...")
-    run_command(["git", "push","-f" "origin", "main"])
+    run_command(["git", "push","-f" ,"origin", "main"])
 
     print("Done. Code pushed successfully.")
 
