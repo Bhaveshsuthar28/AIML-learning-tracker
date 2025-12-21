@@ -19,3 +19,10 @@ print(Clear)
 """we can't compare directly 
     np.nan == np.nan
 """
+
+a = np.random.rand(3,4)
+b = np.random.rand(4,2)
+
+c = a @ b
+
+print(c)
