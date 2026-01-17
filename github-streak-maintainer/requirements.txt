@@ -1,6 +1,0 @@
-# GitHub Streak Maintainer - Dependencies
-# No external dependencies required - uses only Python standard library
-
-# Optional: For advanced scheduling features
-# schedule==1.2.0
-
